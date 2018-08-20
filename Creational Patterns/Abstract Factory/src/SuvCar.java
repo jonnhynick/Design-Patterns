@@ -20,6 +20,6 @@ public class SuvCar implements Car{
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return super.toString();
+		return "Model: " + GetName() + " Type: " + GetModel() + " price: " + GetPrice() + " 4x4: " + is4x4();
 	}
 }

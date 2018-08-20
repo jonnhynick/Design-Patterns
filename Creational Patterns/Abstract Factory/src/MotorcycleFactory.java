@@ -14,17 +14,15 @@ public class MotorcycleFactory extends VehicleFactory{
 		switch(type) {
 		
 		case CRUISER:
-			break;
-			
+			return new CruiserMotorcycle(name, price);
+
 		case SPORTBIKE:
-			break;
-			
+			return new SportBikeMotorcycle(name, price);
+
 		default:
 			throw new IllegalStateException();	
 		
 		}
-		
-		return null;
 	}
 
 }
